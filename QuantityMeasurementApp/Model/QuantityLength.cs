@@ -12,7 +12,7 @@ public class QuantityLength
     public double Value => _value;
     public LengthUnit Unit => _unit;
 
-    // 🔥 Base unit = Inches
+    //  Base unit = Inches
     private double ConvertToInches()
     {
         return _unit switch

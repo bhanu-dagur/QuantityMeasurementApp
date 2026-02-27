@@ -221,9 +221,7 @@ public sealed class QuantityMeasurementAppTest
         Assert.IsFalse(yard.Equals(feet));
     }
 
-    // ================================
     // UC4 – CENTIMETERS TESTS
-    // ================================
 
     [TestMethod]
     public void TestEquality_CentimeterToCentimeter_SameValue()
@@ -252,9 +250,7 @@ public sealed class QuantityMeasurementAppTest
         Assert.IsFalse(cm.Equals(feet));
     }
 
-    // ================================
     // UC4 – TRANSITIVE PROPERTY
-    // ================================
 
     [TestMethod]
     public void TestEquality_MultiUnit_TransitiveProperty()
