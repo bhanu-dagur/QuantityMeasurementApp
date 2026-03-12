@@ -5,7 +5,7 @@ namespace QuantityMeasurementApp
     public class QuantityMeasurementApplication
     {
         // Generic Equality Demonstration
-        public static void DemonstrateEquality<U>(Quantity<U> q1, Quantity<U> q2)
+        public static void DemonstrateEquality<U>(Quantity<U> q1, Quantity<U> q2) where U : Enum
         {
             Console.WriteLine("Checking Equality:");
             Console.WriteLine($"{q1} == {q2} -> {q1.Equals(q2)}");
@@ -13,7 +13,7 @@ namespace QuantityMeasurementApp
         }
 
         // Generic Conversion Demonstration
-        public static void DemonstrateConversion<U>(Quantity<U> quantity, U targetUnit)
+        public static void DemonstrateConversion<U>(Quantity<U> quantity, U targetUnit) where U : Enum
         {
             var result = quantity.ConvertTo(targetUnit);
 
@@ -23,7 +23,7 @@ namespace QuantityMeasurementApp
         }
 
         // Generic Addition Demonstration
-        public static void DemonstrateAddition<U>(Quantity<U> q1, Quantity<U> q2, U targetUnit)
+        public static void DemonstrateAddition<U>(Quantity<U> q1, Quantity<U> q2, U targetUnit) where U : Enum
         {
             var result = q1.Add(q2, targetUnit);
 

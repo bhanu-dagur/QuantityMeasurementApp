@@ -1,6 +1,6 @@
 namespace QuantityMeasurementApp.models
 {
-    public class Quantity<U>
+    public class Quantity<U> where U : Enum
     {
         private readonly double value;
         private readonly U unit;
