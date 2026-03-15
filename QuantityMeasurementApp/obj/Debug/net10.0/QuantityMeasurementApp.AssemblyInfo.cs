@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuantityMeasurementApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16150ddbd6734ecb58cd39c4a2362d87371df28f")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuantityMeasurementApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuantityMeasurementApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
