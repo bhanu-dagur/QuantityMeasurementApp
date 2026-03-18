@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\OneDrive\\Desktop\\QuantityManagement_App\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj": {}
+    "C:\\QuantityMeasurementApp\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\OneDrive\\Desktop\\QuantityManagement_App\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj": {
+    "C:\\QuantityMeasurementApp\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\OneDrive\\Desktop\\QuantityManagement_App\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj",
+        "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj",
         "projectName": "QuantityMeasurementApp",
-        "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\QuantityManagement_App\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj",
+        "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementApp\\QuantityMeasurementApp.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\OneDrive\\Desktop\\QuantityManagement_App\\QuantityMeasurementApp\\obj\\",
+        "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
