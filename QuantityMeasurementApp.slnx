@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="QuantityMeasurementAPI/QuantityMeasurementAPI.csproj" />
+  <Project Path="QuantityMeasurementAppRepositoryLayer/QuantityMeasurementAppRepositoryLayer.csproj" />
+</Solution>
