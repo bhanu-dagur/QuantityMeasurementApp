@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
+      "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
       "projectName": "QuantityMeasurementAppModelLayer",
-      "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
+      "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\obj\\",
+      "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

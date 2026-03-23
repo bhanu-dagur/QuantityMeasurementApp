@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kvi/XOiiBXw=",
+  "dgSpecHash": "2if2KBh1fxw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+  "projectFilePath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.9\\microsoft.aspnetcore.http.2.3.9.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.mvc\\2.3.9\\microsoft.aspnetcore.mvc.2.3.9.nupkg.sha512",
@@ -42,9 +42,9 @@
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference Microsoft.AspNetCore.Http will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+      "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+      "filePath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
       "libraryId": "Microsoft.AspNetCore.Http",
       "targetGraphs": [
         "net10.0"
@@ -54,9 +54,9 @@
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference Microsoft.AspNetCore.Mvc will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+      "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+      "filePath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
       "libraryId": "Microsoft.AspNetCore.Mvc",
       "targetGraphs": [
         "net10.0"

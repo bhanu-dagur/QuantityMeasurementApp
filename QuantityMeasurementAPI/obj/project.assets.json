@@ -1574,11 +1574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+      "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
       "projectName": "QuantityMeasurementAPI",
-      "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+      "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAPI\\obj\\",
+      "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1599,11 +1599,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj"
+            "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj": {
+              "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj"
             },
-            "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
-              "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\UC15\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj"
+            "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
+              "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj"
             }
           }
         }
