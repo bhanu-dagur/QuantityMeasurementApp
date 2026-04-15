@@ -19,5 +19,7 @@ namespace QuantityMeasurementAppModelLayer.Entity
 
         public string ResultUnit { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+        public int UserId { get; set; }
     }
 }

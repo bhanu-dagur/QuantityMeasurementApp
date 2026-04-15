@@ -1,17 +1,18 @@
 using QuantityMeasurementAppModelLayer.DTO;
-using QuantityMeasurementAppRepositoryLayer;
+using QuantityMeasurementAppRepositoryLayer.Interface;
 using QuantityMeasurementAppModelLayer.Entity;
 using Microsoft.AspNetCore.Identity;
 using System.Text.RegularExpressions;
+using QuantityMeasurementAppBusinessLayer.Exceptions;
 namespace QuantityMeasurementAppBusinessLayer.Interface;
 public class AuthService : IAuthService
 {
-    private readonly IMeasurementHistoryRepository _userRepository;
+    private readonly IUserRepository  _userRepository;
     private readonly IJwtService _jwtService;
     private readonly PasswordHasher<User> _passwordHasser;
 
 
-    public AuthService(IJwtService jwtService, IMeasurementHistoryRepository _userRepository)
+    public AuthService(IJwtService jwtService, IUserRepository _userRepository)
     {
         _jwtService = jwtService;
         this._userRepository = _userRepository;
@@ -19,7 +20,7 @@ public class AuthService : IAuthService
 
     }
 
-    public bool ValidateInfo(string email, string password, string fullName,string phone)
+    private bool ValidateInfo(string email, string password, string fullName,string phone)
     {
         if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) ||
             string.IsNullOrEmpty(fullName) || string.IsNullOrEmpty(phone) ||
@@ -37,17 +38,17 @@ public class AuthService : IAuthService
         return true;
     }
 
-    public bool Register(RegisterDTO user)
+    public Task<bool> Register(RegisterDTO user)
     {
         var fullName = user.FullName;
         var email = user.Email;
         var password = user.Password;
         var phone = user.Phone;
 
-        if(!ValidateInfo(email, password, fullName, phone))
-        {
-            return false;
-        }
+        // if(!ValidateInfo(email, password, fullName, phone))
+        // {
+        //     return Task.FromResult(false);
+        // }
 
         User userobj = new User();
         userobj.FullName = fullName;
@@ -59,22 +60,22 @@ public class AuthService : IAuthService
 
         userobj.Password = hashPassword;  
         
-        
-        _userRepository.SaveUser(userobj);
-        return true;
+        Console.WriteLine("Save User Mehtod business layer");
+        Task<bool> result = _userRepository.SaveUser(userobj);
+        return result;
     }
 
-    public string Login(LoginDTO user)
+    public async Task<string> Login(LoginDTO user)
     {
 
-        User loggedUser = _userRepository.GetUserByEmail(user.Email);
+        User? loggedUser = await _userRepository.VerifyUser(user.Email);
 
         if (loggedUser != null && 
             _passwordHasser.VerifyHashedPassword(loggedUser, loggedUser.Password, user.Password) == PasswordVerificationResult.Success)
         {
-            return _jwtService.GenerateToken(loggedUser);
+            return  _jwtService.GenerateToken(loggedUser);
         }
     
-        return null;
+        throw new PasswordMismatchException("Password not matched");
     }
 }

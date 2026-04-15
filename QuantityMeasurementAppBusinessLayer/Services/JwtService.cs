@@ -24,7 +24,9 @@ namespace QuantityMeasurementAppBusinessLayer.Services
 
             var claims = new[]
             {
+                
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
@@ -36,8 +38,7 @@ namespace QuantityMeasurementAppBusinessLayer.Services
                signingCredentials: creds
             );
 
-            var jwtToken= new JwtSecurityTokenHandler().WriteToken(token);
-            
+            string jwtToken= new JwtSecurityTokenHandler().WriteToken(token);
             return jwtToken;
         }
     }

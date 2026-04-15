@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using QuantityMeasurementAppModelLayer.DTO;
 using QuantityMeasurementAppModelLayer.Entity;
 using QuantityMeasurementAppBusinessLayer.Interface;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using System.Net.Http.Headers;
 
 
 namespace QuantityMeasurementAPI.Controller;
@@ -17,9 +20,10 @@ public class QuantityMangementController : ControllerBase
         this._measurementService = measurementService;
     }
     [HttpPost("Conversion/{toUnit}")]
-     public IActionResult QuantityMeasurementConversion([FromBody]  QuantityDTO newProduct,[FromRoute] string toUnit)
+     public async Task<IActionResult> QuantityMeasurementConversion([FromBody]  QuantityDTO newProduct,[FromRoute] string toUnit)
     {
-        QuantityDTO result = _measurementService.PerformConversion(newProduct, toUnit.ToUpper());
+        string? userId=User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        QuantityDTO result = await _measurementService.PerformConversion(newProduct, toUnit.ToUpper(), userId??"");
         return Ok(new
         {
             resultValue=result.Value,
@@ -28,9 +32,10 @@ public class QuantityMangementController : ControllerBase
     }
 
     [HttpPost("addition")]
-    public IActionResult QuantityMeasurementAddition([FromBody]  AirthmeticDTO newEntity,[FromQuery] string toUnit)
+    public async Task<IActionResult> QuantityMeasurementAddition([FromBody]  AirthmeticDTO newEntity,[FromQuery] string toUnit)
     {
-        var result = _measurementService.PerformAddition(newEntity.Quantity1, newEntity.Quantity2, toUnit.ToUpper());
+        string ? userId=User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        QuantityDTO result = await _measurementService.PerformAddition(newEntity.Quantity1, newEntity.Quantity2, toUnit.ToUpper(), userId);
         return Ok(new
         {
             resultValue = result.Value,
@@ -40,9 +45,10 @@ public class QuantityMangementController : ControllerBase
     }
 
     [HttpPost("Subtraction")]
-    public IActionResult QuantityMeasurementSubtraction([FromBody] AirthmeticDTO newEntity, [FromQuery] string toUnit)
+    public async Task<IActionResult> QuantityMeasurementSubtraction([FromBody] AirthmeticDTO newEntity, [FromQuery] string toUnit)
     {
-        var result = _measurementService.PerformSubtraction(newEntity.Quantity1, newEntity.Quantity2, toUnit.ToUpper());
+        string? userId=User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        QuantityDTO result = await _measurementService.PerformSubtraction(newEntity.Quantity1, newEntity.Quantity2, toUnit.ToUpper(),userId);
         return Ok(new
         {
             resultValue = result.Value,
@@ -50,15 +56,28 @@ public class QuantityMangementController : ControllerBase
         });
     }
 
-    [HttpPost ("CheckEquaity")]
-    public IActionResult CheckEquaity([FromBody] AirthmeticDTO newEntity)
+    [HttpPost("Division")]
+    public async Task<IActionResult> QuantityMeasurementDivision([FromBody] AirthmeticDTO newEntity, [FromQuery] string toUnit)
     {
-        var result = _measurementService.CheckEquality(newEntity.Quantity1, newEntity.Quantity2);
-        return Ok(result);
+        string? userId=User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        QuantityDTO result = await _measurementService.PerformDivision(newEntity.Quantity1, newEntity.Quantity2, toUnit.ToUpper(),userId);
+        return Ok(new
+        {
+            resultValue = result.Value,
+            resultUnit = result.Unit
+        }); 
+    
     }
 
-
-    
-    
+    [HttpPost ("CheckEquaity")]
+    public async Task<IActionResult> CheckEquaity([FromBody] AirthmeticDTO newEntity)
+    {
+        string? userId=User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var result = await _measurementService.CheckEquality(newEntity.Quantity1, newEntity.Quantity2,userId);
+        return Ok(new
+        {
+            result=result
+        });
+    }
     
 }
