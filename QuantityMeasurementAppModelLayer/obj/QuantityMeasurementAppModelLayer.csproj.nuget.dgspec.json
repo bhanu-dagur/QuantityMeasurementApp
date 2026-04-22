@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\OneDrive\\Desktop\\QMA\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {}
+    "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\OneDrive\\Desktop\\QMA\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
+    "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\OneDrive\\Desktop\\QMA\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
+        "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
         "projectName": "QuantityMeasurementAppModelLayer",
-        "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\QMA\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
+        "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\OneDrive\\Desktop\\QMA\\QuantityManagement_App\\QuantityMeasurementAppModelLayer\\obj\\",
+        "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.107/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
