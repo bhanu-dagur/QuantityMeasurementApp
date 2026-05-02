@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj": {}
+    "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj": {}
   },
   "projects": {
-    "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj": {
+    "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+        "projectUniqueName": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
         "projectName": "QuantityMeasurementAPI",
-        "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
+        "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAPI\\QuantityMeasurementAPI.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAPI\\obj\\",
+        "outputPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj": {
-                "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj"
+              "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj": {
+                "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj"
               },
-              "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
-                "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj"
+              "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
+                "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj"
               }
             }
           }
@@ -531,14 +531,14 @@
         }
       }
     },
-    "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj": {
+    "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj",
+        "projectUniqueName": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj",
         "projectName": "QuantityMeasurementAppBusinessLayer",
-        "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj",
+        "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\QuantityMeasurementAppBusinessLayer.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\obj\\",
+        "outputPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppBusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -559,8 +559,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj": {
-                "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj"
+              "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj": {
+                "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj"
               }
             }
           }
@@ -880,14 +880,14 @@
         }
       }
     },
-    "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
+    "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
+        "projectUniqueName": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
         "projectName": "QuantityMeasurementAppModelLayer",
-        "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
+        "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\obj\\",
+        "outputPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1219,14 +1219,14 @@
         }
       }
     },
-    "C:\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj": {
+    "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj",
+        "projectUniqueName": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj",
         "projectName": "QuantityMeasurementAppRepositoryLayer",
-        "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj",
+        "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\QuantityMeasurementAppRepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\obj\\",
+        "outputPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppRepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1247,8 +1247,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
-                "projectPath": "C:\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj"
+              "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj": {
+                "projectPath": "D:\\RemoteProjects\\QuantityMeasurementApp\\QuantityMeasurementAppModelLayer\\QuantityMeasurementAppModelLayer.csproj"
               }
             }
           }
